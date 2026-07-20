@@ -401,8 +401,8 @@
     </p>
     <div class="hero-meta">
       <div class="hero-meta-item"><strong>선유고등학교</strong>소속</div>
-      <div class="hero-meta-item"><strong>10개</strong>프로젝트 개발</div>
-      <div class="hero-meta-item"><strong>3개</strong>시스템 운영 중</div>
+      <div class="hero-meta-item"><strong>11개</strong>프로젝트 개발</div>
+      <div class="hero-meta-item"><strong>4개</strong>시스템 운영 중</div>
       <div class="hero-meta-item"><strong>Firebase · React · AI</strong>기술 스택</div>
     </div>
   </div>
@@ -416,7 +416,7 @@
     <div class="section-desc">학교 행정 업무와 물리 수업 연구, 두 분야에 걸쳐 현장 밀착형 시스템을 개발 중입니다.</div>
     <div class="summary-grid">
       <div class="summary-card">
-        <div class="num">3</div>
+        <div class="num">4</div>
         <div class="label">운영 중인 시스템</div>
       </div>
       <div class="summary-card">
@@ -428,7 +428,7 @@
         <div class="label">개발 중·예정</div>
       </div>
       <div class="summary-card">
-        <div class="num">v3.1</div>
+        <div class="num">v3.2</div>
         <div class="label">현재 포털 버전</div>
       </div>
     </div>
@@ -460,7 +460,7 @@
                 <div class="project-icon" style="background:#eef2ff;">🏫</div>
                 <div>
                   <div class="project-title">스마트 교무실 포털</div>
-                  <div class="project-subtitle">SaaS 멀티테넌트 교무 통합 플랫폼 · v3.0</div>
+                  <div class="project-subtitle">SaaS 멀티테넌트 교무 통합 플랫폼 · v3.2</div>
                 </div>
               </div>
               <span class="status-badge status-running">운영중</span>
@@ -481,7 +481,8 @@
 
             <p class="project-desc">
               Google 계정 한 번의 로그인으로 보강 신청·스마트 출결·연수 서명부를 모두 이용할 수 있는 통합 플랫폼입니다.
-              v3.0에서 멀티테넌트 SaaS 구조로 전환하여, 이메일 도메인 자동 인식 방식으로 어느 학교든 별도 세팅 없이 즉시 사용할 수 있습니다.
+              v3.0에서 멀티테넌트 SaaS 구조로 전환하여 어느 학교든 별도 세팅 없이 즉시 사용 가능하며,
+              v3.2에서 성취평가제 체크리스트, 최소성취수준 보장지도 점검 도구, 분할점수 관리 기능을 추가했습니다.
             </p>
             <div class="feature-list">
               <div class="feature-item"><div class="feature-dot"></div>Google 계정 SSO — 학교 도메인 자동 감지 및 학교별 데이터 완전 분리</div>
@@ -489,6 +490,9 @@
               <div class="feature-item"><div class="feature-dot"></div>보강신청 — 실시간 카드 목록, 신청·취소, 보강 현황판, Excel 내보내기</div>
               <div class="feature-item"><div class="feature-dot"></div>스마트 출결 — QR 기반 체크인, 외출 관리, 1/3 자동 마감, 통계 대시보드</div>
               <div class="feature-item"><div class="feature-dot"></div>연수 서명부 — QR 서명, 참석 현황 실시간 조회, 명단 프리셋 관리</div>
+              <div class="feature-item"><div class="feature-dot"></div>성취평가제 체크리스트 — 교과별 성취도 점검 항목 관리 및 교감 서명 기능 (v3.2)</div>
+              <div class="feature-item"><div class="feature-dot"></div>최소성취수준 보장지도 점검 도구 — 학생 성취 수준 추적 및 관리 (v3.2)</div>
+              <div class="feature-item"><div class="feature-dot"></div>분할점수 기준 관리 — 학년도·학기별 성적 평가 기준 누적 관리 (v3.2)</div>
               <div class="feature-item"><div class="feature-dot"></div>사전 등록(preApproved) — 교직원 명단 미리 등록 시 로그인 즉시 자동 승인</div>
               <div class="feature-item"><div class="feature-dot"></div>보강 등록 시 관리자가 보강교사 직접 지정, Firestore Rules 보안 강화 (에듀집 인증 대응)</div>
             </div>
@@ -529,7 +533,8 @@
               <div class="feature-item"><div class="feature-dot"></div>시험 계획 — 고사 기간·교시 설정, 응시 과목 확정, 세션 생성</div>
               <div class="feature-item"><div class="feature-dot"></div>응시 인원 기반 고사실 자동 배정, 도움실·별도실 학생 별도 배정</div>
               <div class="feature-item"><div class="feature-dot"></div>드래그 방식 일정 배치 및 충돌 경고</div>
-              <div class="feature-item"><div class="feature-dot"></div>고사실별 응시 현황표 출력 (도움실·별도실 원 소속 고사실 정보 포함)</div>
+              <div class="feature-item"><div class="feature-dot"></div>고사실별 응시 현황표 전면 개선 — Excel + HTML 출력, 도움실·별도실 원 소속 고사실 정보 표시</div>
+              <div class="feature-item"><div class="feature-dot"></div>개인정보처리방침 독립 페이지 및 모달 (AppFooter 연동)</div>
             </div>
             <div class="tech-row">
               <span class="tech-badge">React 19</span>
@@ -595,17 +600,22 @@
                   <div class="project-subtitle">Google Classroom 연동 자동 채점</div>
                 </div>
               </div>
-              <span class="status-badge status-dev">개인 운영중</span>
+              <span class="status-badge status-running">운영중</span>
             </div>
             <p class="project-desc">
               Google Classroom의 과제를 불러와 교사가 채점 기준을 작성하면, Gemini AI가 학생 답안을 자동 채점하고
-              결과를 이메일로 발송합니다. 설문지·문서·스프레드시트·프레젠테이션 등 다양한 과제 형식을 지원합니다.
+              결과를 이메일로 발송합니다. 설문지·문서·스프레드시트·프레젠테이션은 물론, 슬라이드 내 YouTube 영상까지 AI가 직접 시청하여 채점합니다.
+              성적 일람표, 개인 성적 페이지, 모둠활동 감지, 종이 평가 기능을 추가하여 수행평가 전 과정을 지원합니다.
             </p>
             <div class="feature-list">
               <div class="feature-item"><div class="feature-dot"></div>Google Classroom API 연동 — 수업·과제 자동 불러오기</div>
-              <div class="feature-item"><div class="feature-dot"></div>채점 기준 작성 UI + Gemini AI 자동 채점</div>
+              <div class="feature-item"><div class="feature-dot"></div>채점 기준 작성 UI + Gemini AI 자동 채점 (Gemini 3.1 Flash-Lite 포함)</div>
               <div class="feature-item"><div class="feature-dot"></div>설문지 / 구글 문서 / 스프레드시트 / 프레젠테이션 지원</div>
+              <div class="feature-item"><div class="feature-dot"></div>슬라이드 YouTube 영상 AI 직접 시청 채점 — 삽입된 영상 자동 감지 및 분석</div>
+              <div class="feature-item"><div class="feature-dot"></div>성적 일람표 · 개인 성적 페이지 — 학생별 성적 조회 및 통계</div>
+              <div class="feature-item"><div class="feature-dot"></div>모둠활동 감지, 종이 평가 추가 기능</div>
               <div class="feature-item"><div class="feature-dot"></div>채점 결과 학생별 이메일 자동 발송</div>
+              <div class="feature-item"><div class="feature-dot"></div>전체 채점 속도 개선 — 3명 병렬 처리로 대폭 향상</div>
             </div>
             <div class="tech-row">
               <span class="tech-badge">React 18</span>
@@ -614,9 +624,6 @@
               <span class="tech-badge">Google Classroom API</span>
               <span class="tech-badge">Firebase Functions</span>
             </div>
-            <p style="font-size:0.78rem; color:#94a3b8; margin-top:0.75rem;">
-              * API 비용 문제로 현재 개인 사용 단계. 1학기 안정화 후 확대 예정.
-            </p>
           </div>
         </div>
       </div>
@@ -704,7 +711,45 @@
         </div>
       </div>
 
-      <!-- 7. 물리 디펜스 게임 -->
+      <!-- 7. 물리 교육용 앱 통합 플랫폼 -->
+      <div class="project-card">
+        <div class="project-card-inner">
+          <div class="project-accent" style="background: #8b5cf6;"></div>
+          <div class="project-body">
+            <div class="project-header">
+              <div class="project-title-row">
+                <div class="project-icon" style="background:#f5f3ff;">🔬</div>
+                <div>
+                  <div class="project-title">물리 교육용 앱 통합 플랫폼</div>
+                  <div class="project-subtitle">Physics Analytics Platform · 3개 앱 통합 개발</div>
+                </div>
+              </div>
+              <span class="status-badge status-dev">개발 중</span>
+            </div>
+            <p class="project-desc">
+              기존의 운동 분석, 광학 실험, 등전위면 실험 앱을 하나의 통합 플랫폼으로 재구성하는 프로젝트입니다.
+              React 19 + TypeScript + Vite로 전면 재작성하여 유지보수성을 높이고,
+              통합된 사용자 경험과 데이터 관리 시스템을 제공합니다.
+            </p>
+            <div class="feature-list">
+              <div class="feature-item"><div class="feature-dot"></div>기존 3개 교육용 앱 분석 완료 — 운동 분석·광학·등전위면</div>
+              <div class="feature-item"><div class="feature-dot"></div>React 19 + TypeScript 기반 통합 아키텍처 설계</div>
+              <div class="feature-item"><div class="feature-dot"></div>공통 UI/UX 컴포넌트 라이브러리</div>
+              <div class="feature-item"><div class="feature-dot"></div>통합 데이터 관리 및 보고서 시스템</div>
+            </div>
+            <div class="tech-row">
+              <span class="tech-badge">React 19</span>
+              <span class="tech-badge">TypeScript</span>
+              <span class="tech-badge">Vite</span>
+              <span class="tech-badge">Canvas API</span>
+              <span class="tech-badge">TensorFlow.js</span>
+              <span class="tech-badge">Firebase</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 8. 물리 디펜스 게임 -->
       <div class="project-card">
         <div class="project-card-inner">
           <div class="project-accent" style="background: #f59e0b;"></div>
@@ -737,7 +782,7 @@
         </div>
       </div>
 
-      <!-- 8. 등전위면 실험 플랫폼 -->
+      <!-- 9. 등전위면 실험 플랫폼 -->
       <div class="project-card">
         <div class="project-card-inner">
           <div class="project-accent" style="background: #10b981;"></div>
@@ -785,7 +830,7 @@
 
     <div class="project-list">
 
-      <!-- 9. 학교 전광판 시스템 -->
+      <!-- 10. 학교 전광판 시스템 -->
       <div class="project-card">
         <div class="project-card-inner">
           <div class="project-accent" style="background: #0ea5e9;"></div>
@@ -819,7 +864,7 @@
         </div>
       </div>
 
-      <!-- 10. H.265→H.264 영상 변환 -->
+      <!-- 11. H.265→H.264 영상 변환 -->
       <div class="project-card">
         <div class="project-card-inner">
           <div class="project-accent" style="background: #64748b;"></div>
@@ -865,7 +910,13 @@
     <div class="timeline">
       <div class="tl-item">
         <div class="tl-dot"></div>
-        <div class="tl-version">v3.1 · 최신</div>
+        <div class="tl-version">v3.2 · 최신</div>
+        <div class="tl-date">2026.07</div>
+        <div class="tl-items">성취평가제 체크리스트 기능 추가 (교과별 성취도 점검·교감 서명) · 최소성취수준 보장지도 점검 도구 · 분할점수 기준 학년도·학기별 누적 관리 · 사전 등록 자동 활성화 기능 개선</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-version">v3.1</div>
         <div class="tl-date">2026.06</div>
         <div class="tl-items">보강 등록 시 관리자 보강교사 직접 지정 · Firestore Rules 보안 강화 (HTTP 보안 헤더 추가, 에듀집 인증 대응) · 개인정보처리방침 페이지 추가 · 취약점 패치</div>
       </div>
